@@ -79,7 +79,7 @@ public class FileSpliter {
         String targetDirectoryPath = "C:\\Users\\Mangotea\\IdeaProjects\\mango-crawler-first\\src\\main\\resources\\newList";
         List<String> resultFileNames = null;
         try {
-            resultFileNames = splitFileByLine(sourceFilePath, targetDirectoryPath, 2);
+            resultFileNames = splitFileByLine(sourceFilePath, targetDirectoryPath, 4);
         } catch (IOException e) {
             e.printStackTrace();
         }
